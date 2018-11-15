@@ -19,9 +19,12 @@ for i in car:
 
 print('carl = {0}'.format(type(carl)))
 '''
+import PracLib
 
 N = int(input("input N : "))
 M = int(input("input M : "))
-for N
-    for i in range(1,13,1):
-        print('{0} x {1:2} = {2:2} '.format(N,i,i*N))
+for l in range(N,M+1):
+    for i in range(1,13):
+        print('{0} x {1:2} = {2:2} '.format(l,i,i*l))
+    PracLib.line("-",10)
+
